@@ -5,8 +5,6 @@ import org.springframework.boot.test.context.SpringBootTest;
 
 @SpringBootTest
 class MpabffApplicationTests {
-//este comentario es de prueba
-//prueba para subida
 	@Test
 	void contextLoads() {
 	}
