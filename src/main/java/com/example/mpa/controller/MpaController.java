@@ -1,11 +1,12 @@
 package com.example.mpa.controller;
 
-import com.example.mpa.beans.Persona;
 import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.GetMapping;
+import org.springframework.web.bind.annotation.RestController;
 
-@Controller
+import com.example.mpa.beans.Persona;
+
+@RestController
 public class MpaController {
     @Autowired
     Persona per;
